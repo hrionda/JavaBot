@@ -12,15 +12,15 @@ This bot automates some moderation tasks on your Discord server as well as conta
 - changePrefix (Changes the command prefix; base prefix is --)
 - blacklist (Blacklists a given word from your sever)
 - removeFromBlacklist (Removes a word from the blacklist)
-- delete (Delete a given amount of messages)
+- delete (Deletes a given amount of messages previously sent)
 
 ##### Recreational
 
 - flipcoin (Basic coin flip)
-- 8ball (I can answer a question of yours)
-- play (Play a video from YouTube!)
-- stop (Stop me from playing audio)
-- help (sends DM about features)
+- 8ball (Answers a given question)
+- play (Plays a video from YouTube!)
+- stop (Stops playing audio)
+- help (Sends DM about features)
 
 Note: The commands are not case sensitive.
 

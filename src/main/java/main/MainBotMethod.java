@@ -13,7 +13,8 @@ public class MainBotMethod extends ListenerAdapter {
 
     public static void main(String[] args) throws Exception {
         jda = new JDABuilder(AccountType.BOT)
-                .setToken("NTAxNjU4NjYyODc2NzQxNjM0.Dti0aw.Kr5R7N3FECI8zmiJj4d0SO8QTXg")
+            // Old token demonstrating bot initialization
+                .setToken("NTAxNjU4NjYyODc2NzQxNjM0Dti0awKr5R7N3FECI8zmiJj4d0SO8QTXg")
                 .build();
 
         jda.addEventListener(new GreetCommand());

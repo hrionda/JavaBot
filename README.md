@@ -1,34 +1,32 @@
 # JavaBot
-Bot for Discord
+### Bot for Discord
 
 This bot automates some moderation tasks on your Discord server as well as containing some recreational functions.
 
-Here is a full list of the bot commands: 
+#### Command List
 
-flipcoin (Basic coin flip)
+##### Moderation
+- assignRole (Gives a role to a member)
+- rescindRole (Removes a role from a member)
+- serverData (Returns some data about the server)
+- changePrefix (Changes the command prefix; base prefix is --)
+- blacklist (Blacklists a given word from your sever)
+- removeFromBlacklist (Removes a word from the blacklist)
+- delete (Delete a given amount of messages)
 
-8ball (I can answer a question of yours)
+##### Recreational
 
-delete (Delete a given amount of messages)
+- flipcoin (Basic coin flip)
+- 8ball (I can answer a question of yours)
+- play (Play a video from YouTube!)
+- stop (Stop me from playing audio)
+- help (sends DM about features)
 
-assignRole (Give a role to a member)
+Note: The commands are not case sensitive.
 
-rescindRole (Take a role away from a member)
+Note #2: The moderation commands will check server permissions of the user.
 
-serverData (Returns some data about the guild/server)
+###### Made with:
 
-changePrefix (Changes the command prefix)
-
-blacklist (Blacklists a given word from your sever)
-
-removeFromBlacklist (Removes a word from the blacklist)
-
-play (Play a video from YouTube!)
-
-stop (Stop me from playing audio)
-
-help (sends DM about features)
-
-These commands are not case-sensitive.
-
-base prefix --
+[Java REST API WraPper JDA](https://github.com/DV8FromTheWorld/JDA)
+[LavaPlayer Audio Library for Discord](https://github.com/sedmelluq/lavaplayer)

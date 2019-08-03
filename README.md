@@ -28,5 +28,5 @@ Note #2: The moderation commands will check server permissions of the user.
 
 ###### Made with:
 
-[Java REST API WraPper JDA](https://github.com/DV8FromTheWorld/JDA)
-[LavaPlayer Audio Library for Discord](https://github.com/sedmelluq/lavaplayer)
+- [Java REST API Wrapper JDA](https://github.com/DV8FromTheWorld/JDA)
+- [LavaPlayer Audio Library for Discord](https://github.com/sedmelluq/lavaplayer)
